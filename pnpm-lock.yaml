@@ -11,6 +11,9 @@ importers:
       '@types/reveal.js':
         specifier: ^5.2.0
         version: 5.2.0
+      highlightjs-svelte:
+        specifier: ^1.0.6
+        version: 1.0.6
       reveal.js:
         specifier: ^5.2.1
         version: 5.2.1
@@ -911,6 +914,9 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
+
+  highlightjs-svelte@1.0.6:
+    resolution: {integrity: sha512-aXuBPz8df3sOXg90q8rRcBLyxIR8ozPU39a6tJ2rpJUjjd9brRIr55aC0IccW4gsPhQxZ+B3rFugdXsg9/ckDw==}
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -2213,6 +2219,8 @@ snapshots:
   graphemer@1.4.0: {}
 
   has-flag@4.0.0: {}
+
+  highlightjs-svelte@1.0.6: {}
 
   ignore@5.3.2: {}
 

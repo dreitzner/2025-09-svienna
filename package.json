@@ -47,6 +47,7 @@
 	},
 	"dependencies": {
 		"@types/reveal.js": "^5.2.0",
+		"highlightjs-svelte": "^1.0.6",
 		"reveal.js": "^5.2.1"
 	}
 }
