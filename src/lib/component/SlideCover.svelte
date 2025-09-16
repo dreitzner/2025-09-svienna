@@ -13,7 +13,12 @@
 	data-auto-animate-id={id}
 	data-auto-animate={animate}
 	data-auto-animate-restart={restart}
-	class="flex h-full items-center justify-center"
+	class="flex slide-cover items-center justify-center"
 >
 	{@render children()}
 </section>
+<style>
+	.slide-cover{
+		max-width: calc((100vw - var(--spacing) * 40));
+	}
+</style>
